@@ -1,265 +1,235 @@
-/*BEGIN custom One Controller Styling*/
-.controller.custom {
-    /*background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/base.svgz);*/
+/*BEGIN Xbox One Controller Styling*/
+.controller.custom{
+    /* background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz); */
     height: 630px;
     width: 750px;
-    /*    margin-left: -375px;
-        margin-top: -285px;*/
+    margin-left: -375px;
+    margin-top: -285px;
 }
-
-.custom.white {
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/base-white.svgz);
+.custom.white{
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/base-white.svgz);
 }
-
 .custom.disconnected {
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/disconnected.svgz);
-}
 
+}
 .custom.disconnected div {
     display: none;
 }
-
-.custom .triggers {
-    width: 446px;
+.custom .triggers{
+    width: 520px;
     height: 121px;
     position: absolute;
-    left: 152px;
+    left: 126px;
+    top: 239px;
+    background: url(http://i.imgur.com/GaV5RBy.png);
+    /* background-position: -152px 0px; */
+    -webkit-clip-path: 50%;
 }
-
-.custom .trigger {
+.custom .trigger{
     width: 88px;
     height: 121px;
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/trigger.svgz);
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/trigger.svgz);
     opacity: 0;
 }
-
-.custom .trigger.left {
+.custom .trigger.left{
     float: left;
-    background-position: 0 0;
+    background-position:0 0;
 }
-
-.custom .trigger.right {
+.custom .trigger.right{
     float: right;
     transform: rotateY(180deg);
 }
-
-.custom .bumper {
+.custom .bumper{
     width: 170px;
     height: 61px;
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/bumper.svgz);
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/bumper.svgz);
     opacity: 0;
 }
-
-.custom .bumpers {
+.custom .bumpers{
     position: absolute;
     width: 536px;
     height: 61px;
     left: 107px;
     top: 129px;
+    display: none;
 }
-
-.custom .bumper.pressed {
+.custom .bumper.pressed{
     opacity: 1;
 }
-
-.custom .bumper.left {
+.custom .bumper.left{
     float: left;
 }
-
-.custom .bumper.right {
+.custom .bumper.right{
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
-
-.custom .quadrant {
+.custom .quadrant{
     position: absolute;
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/quadrant.svgz);
+    /* background: url(http://mrmcpowned.com/gamepad/xbox-assets/quadrant.svgz); */
     height: 45px;
     width: 45px;
     top: 258px;
     left: 354px;
     z-index: 0;
 }
-
-.custom .p0 {
+.custom .p0{
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
 }
-
-.custom .p1 {
+.custom .p1{
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-
-.custom .p2 {
+.custom .p2{
     -webkit-transform: rotate(270deg);
     transform: rotate(270deg);
 }
-
-.custom .p3 {
+.custom .p3{
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-
-.custom .arrows {
+.custom .arrows{
     position: absolute;
     width: 141px;
     height: 33px;
     top: 264px;
     left: 306px;
+    display: none;
 }
-
-.custom .back, .custom .start {
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/start-select.svgz);
+.custom .back, .custom .start{
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/start-select.svgz);
     width: 33px;
     height: 33px;
     opacity: 0;
 }
-
-.custom .back.pressed, .custom .start.pressed {
+.custom .back.pressed, .custom .start.pressed{
     opacity: 1;
 }
-
-.custom .back {
+.custom .back{
     float: left;
 }
-
-.custom .start {
+.custom .start{
     background-position: 33px 0px;
     float: right;
 }
-
-.custom .abxy {
+.custom .abxy{
     position: absolute;
-    width: 153px;
-    height: 156px;
-    top: 192px;
-    left: 488px;
+    width: 157px;
+    height: 164px;
+    top: 231px;
+    left: 388px;
+    background: url(http://i.imgur.com/tE4M2o4.png);
+    /* background-size: contain; */
 }
-
-.custom .button {
+.custom .button{
     position: absolute;
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/abxy.svgz);
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/abxy.svgz);
     width: 48px;
     height: 48px;
 }
-
-.custom .button.pressed {
+.custom .button.pressed{
     background-position-y: -48px;
     margin-top: 5px;
     opacity: 1;
 }
-
-.custom .a {
+.custom .a{
     background-position: 0 0;
     top: 108px;
     left: 55px;
 }
-
-.custom .b {
+.custom .b{
     background-position: -49px 0;
-    top: 58px;
-    right: 0px;
+    top: 57px;
+    right: 3px;
 }
-
-.custom .x {
+.custom .x{
     background-position: -98px 0;
-    top: 58px;
+    top: 57px;
     left: 4px;
 }
-
-.custom .y {
+.custom .y{
     background-position: 48px 0;
     left: 55px;
-    top: 7px;
+    top: 5px;
 }
-
-.custom .sticks {
+.custom .sticks{
     position: absolute;
-    width: 371px;
-    height: 196px;
+    width: 137px;
+    height: 139px;
     top: 239px;
-    left: 144px;
+    left: 224px;
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/base.svgz);*/;
+    background-position: -117px -214px;
+    -webkit-clip-path: circle(50% at center);
+    clip-path: circle(50% at center);
 }
-
-.custom .stick {
+.custom .stick{
     position: absolute;
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/stick.svgz);
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/stick.svgz);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
 }
-
-.custom .stick.pressed {
+.custom .stick.pressed{
     background-position: 0 0;
 }
-
-.custom .stick.left {
-    top: 0;
-    left: 0;
+.custom .stick.left{
+    top: 24px;
+    left: 27px;
 }
-
-.custom .stick.right {
+.custom .stick.right{
     top: 113px;
     left: 288px;
+    display: none;
 }
-
-.custom .dpad {
+.custom .dpad{
     position: absolute;
     width: 110px;
     height: 111px;
     top: 345px;
     left: 223px;
+    display: none;
 }
-
-.custom .face {
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/dpad.svgz);
+.custom .face{
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/dpad.svgz);
     position: absolute;
     opacity: 0;
 }
-
-.custom .face.pressed {
+.custom .face.pressed{
     opacity: 1;
 }
-
-.custom .face.up {
+.custom .face.up{
     background-position: 34px 0;
     left: 38px;
     top: 0px;
     width: 34px;
     height: 56px;
 }
-
-.custom .face.down {
+.custom .face.down{
     left: 38px;
     bottom: 0;
     width: 34px;
     height: 56px;
 }
-
-.custom .face.left {
+.custom .face.left{
     background-position: 0 -93px;
     width: 55px;
     height: 35px;
     top: 38px;
     left: 0;
 }
-
-.custom .face.right {
+.custom .face.right{
     background-position: 0 -57px;
     width: 55px;
     height: 35px;
     top: 38px;
     right: 0;
 }
-
-.custom.half {
+.custom.half{
     margin-top: -315px;
 }
-
-.custom {
+.custom{
     background: no-repeat center;
 }
-
-/*END custom One Controller Styling*/
+/*END Xbox One Controller Styling*/
