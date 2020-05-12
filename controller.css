@@ -1,18 +1,18 @@
 /*BEGIN custom One Controller Styling*/
 .controller.custom {
-    background: url(goldcontroller.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/base.svgz);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
 
-.custom.white {
-    background: url(resources/base-white.svgz);
-}
+/*.custom.white {*/
+/*    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/base-white.svgz);*/
+/*}*/
 
 .custom.disconnected {
-    background: url(resources/disconnected.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/disconnected.svgz);
 }
 
 .custom.disconnected div {
@@ -29,7 +29,7 @@
 .custom .trigger {
     width: 88px;
     height: 121px;
-    background: url(resources/trigger.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/trigger.svgz);
     opacity: 0;
 }
 
@@ -46,7 +46,7 @@
 .custom .bumper {
     width: 170px;
     height: 61px;
-    background: url(resources/bumper.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/bumper.svgz);
     opacity: 0;
 }
 
@@ -74,7 +74,7 @@
 
 .custom .quadrant {
     position: absolute;
-    background: url(resources/quadrant.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/quadrant.svgz);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -111,7 +111,7 @@
 }
 
 .custom .back, .custom .start {
-    background: url(resources/start-select.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/start-select.svgz);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -140,7 +140,7 @@
 
 .custom .button {
     position: absolute;
-    background: url(resources/abxy.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/abxy.svgz);
     width: 48px;
     height: 48px;
 }
@@ -185,7 +185,7 @@
 
 .custom .stick {
     position: absolute;
-    background: url(resources/stick.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/stick.svgz);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -214,7 +214,7 @@
 }
 
 .custom .face {
-    background: url(resources/dpad.svgz);
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/dpad.svgz);
     position: absolute;
     opacity: 0;
 }
