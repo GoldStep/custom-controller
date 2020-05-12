@@ -1,6 +1,6 @@
 /*BEGIN custom One Controller Styling*/
 .controller.custom {
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcesbase.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/base.svgz);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -8,11 +8,11 @@
 }
 
 /*.custom.white {*/
-/*    background: url(https://goldstep.github.io/custom-controller/resources/resourcesbase-white.svgz);*/
+/*    background: url(https://goldstep.github.io/custom-controller/resources/base-white.svgz);*/
 /*}*/
 
 .custom.disconnected {
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcesdisconnected.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/disconnected.svgz);
 }
 
 .custom.disconnected div {
@@ -29,7 +29,7 @@
 .custom .trigger {
     width: 88px;
     height: 121px;
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcestrigger.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/trigger.svgz);
     opacity: 0;
 }
 
@@ -46,7 +46,7 @@
 .custom .bumper {
     width: 170px;
     height: 61px;
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcesbumper.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/bumper.svgz);
     opacity: 0;
 }
 
@@ -74,7 +74,7 @@
 
 .custom .quadrant {
     position: absolute;
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcesquadrant.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/quadrant.svgz);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -111,7 +111,7 @@
 }
 
 .custom .back, .custom .start {
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcesstart-select.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/start-select.svgz);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -140,7 +140,7 @@
 
 .custom .button {
     position: absolute;
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcesabxy.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/abxy.svgz);
     width: 48px;
     height: 48px;
 }
@@ -185,7 +185,7 @@
 
 .custom .stick {
     position: absolute;
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcesstick.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/stick.svgz);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -214,7 +214,7 @@
 }
 
 .custom .face {
-    background: url(https://goldstep.github.io/custom-controller/resources/resourcesdpad.svgz);
+    background: url(https://goldstep.github.io/custom-controller/resources/dpad.svgz);
     position: absolute;
     opacity: 0;
 }
