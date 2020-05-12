@@ -1,15 +1,15 @@
 /*BEGIN custom One Controller Styling*/
 .controller.custom {
-    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/base.svgz);
+    /*background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/base.svgz);*/
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
 
-/*.custom.white {*/
-/*    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/base-white.svgz);*/
-/*}*/
+.custom.white {
+    background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/base-white.svgz);
+}
 
 .custom.disconnected {
     background: url(https://github.com/GoldStep/custom-controller/raw/master/resources/disconnected.svgz);
