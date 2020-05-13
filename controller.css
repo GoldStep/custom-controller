@@ -1,6 +1,11 @@
 /*BEGIN custom One Controller Styling*/
+@keyframes colorhue{
+    from {-webkit-filter: hue-rotate(0deg); filter: hue-rotate(0deg);}
+    to {-webkit-filter: hue-rotate(359deg); filter: hue-rotate(359deg);}
+}
+
 .controller.custom {
-    background: url(https://goldstep.github.io/custom-controller/resources/base.png);
+    background: url(https://goldstep.github.io/custom-controller/resources/base.svg);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -72,15 +77,15 @@
     transform: rotateY(180deg);
 }
 
-.custom .quadrant {
-    position: absolute;
-    background: url(https://goldstep.github.io/custom-controller/resources/quadrant.svgz);
-    height: 45px;
-    width: 45px;
-    top: 258px;
-    left: 354px;
-    z-index: 0;
-}
+/*.custom .quadrant {*/
+/*    position: absolute;*/
+/*    background: url(https://goldstep.github.io/custom-controller/resources/quadrant.svgz);*/
+/*    height: 45px;*/
+/*    width: 45px;*/
+/*    top: 258px;*/
+/*    left: 354px;*/
+/*    z-index: 0;*/
+/*}*/
 
 .custom .p0 {
     -webkit-transform: rotate(0deg);
@@ -136,6 +141,7 @@
     height: 156px;
     top: 192px;
     left: 488px;
+    animation: colorhue 1s linear infinite;
 }
 
 .custom .button {
