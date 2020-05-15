@@ -8,7 +8,7 @@
     background: url(https://goldstep.github.io/custom-controller/resources/base.svg);
     height: 630px;
     width: 750px;
-    animation: colorhue 1s linear infinite;
+    animation: colorhue 15s linear infinite;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
